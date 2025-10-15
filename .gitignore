@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Environment Variables
+.env
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.DS_Store
+
+# Data files tracked by DVC
+# Git will ignore the actual data files in these directories.
+# DVC will track them using the .dvc pointer files instead.
+data/raw/
+data/processed/
+
+# Log files
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Selenium / Webdriver files
+/drivers/
+geckodriver.log
