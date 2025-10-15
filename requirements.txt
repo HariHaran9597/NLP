@@ -1,0 +1,12 @@
+# Core Libraries
+pandas
+python-dotenv
+
+# Scraping
+requests
+beautifulsoup4
+scrapy
+selenium
+
+# Data Versioning
+dvc
